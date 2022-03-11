@@ -1,48 +1,112 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Noto+Serif+Bengali:wght@300;400;500;700;900&display=swap');
+
+/*Global Selector*/
 *{
-	margin: 0;
-	padding:0;
-	box-sizing: border-box;
-	text-decoration: none;
-	text-transform: capitalize;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Serif Bengali', serif;
 }
-.after-banner{
-	display: flex;
-	justify-content: space-around;
+body{
+    font-size: 14px;
+    background-color: #FFFFFF;
 }
+a{
+    text-decoration: none;
+}
+/*Top Navbar - Banner*/
+.top-nav-banner{
+display: block;
+position: fixed;
+top:0;
+}
+
+/*Search Area*/
+.search-area{
+    width:100%;
+    padding:20px 91px;
+    display: flex;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 73px;
+    z-index: 1000;
+}
+.logo img{
+    width: 110px;
+}
+
+.search{
+    padding: 0 75px;
+    display: flex;
+}
+
 .search-box{
-	width:300px;
-	height: 40px;
-	border: 2px solid #ffff00;
-}
-.after-logo{
-	display: flex;
-	justify-content: space-around;
-	margin-top: 20px;
-	margin: 20px;
-}
-
-.navigation-bar ul{
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: white;
-}
-.navigation-bar ul li{
-	float: left;
-	display: block;
-	padding:14px 16px;
-	align-items: center;
-	
-}
-.navigation-bar ul li a{
-	padding: 8px;
-}
-.navigation-bar ul li a:hover:not(.active){
-	background-color: aliceblue;
+    padding:12px;
+    height: 46px;
+    font-size: 14px;
+    width: 604px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #FF9900;
+    border-radius: 3px 0 0 3px;
+    outline: none;
 }
 
-.active{
-	background-color: aliceblue;
+.search-box:focus {
+    border: 1px solid #80bdff;
+    padding-bottom: 13px;
+  }
+  
+::placeholder {
+    color: #aaa;
+  }
+
+.click_search{
+    height: 46px;
+    width: 50px;
+    background-color: #0397d3;
+    border: 0;
+    border-radius: 0 3px 3px 0;
 }
+
+.click_search img{
+    margin-top: 1px;
+    height: 20px;
+}
+
+.user-area {
+    float:right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.sign-in-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #404040;
+    border: 1px solid #404040;
+    padding: 6px 5px;
+    width: 80px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+
+.first-navbar{
+    margin-top: 90px;
+    text-align: center;
+    margin-left: -80px;
+}
+
+
+
+
+
+
+

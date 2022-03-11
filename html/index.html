@@ -9,43 +9,48 @@
 	<link rel="icon" type="image/x-icon" href="/images/fav icon.png">
 </head>
 <body>
-	<header>
-		<div class="header-banner">
+	<!-- Navigation Area - Top Nav Banner-->
+	<nav>
+		<div class="top-nav-banner">
 			<img src="/images/home-nogod-bookfair-banner.jpg" width="100%" alt="">
 		</div>
-		<div class="after-banner">
+		
+	<!-- Navigation Area - Search Area-->
+		<div class="search-area">
 			<div class="logo">
-				<img src="/images/rokomari_logo.png" alt="">
+				<img src="/images/rokomari_logo.png">
 			</div>
-			<div class="after-logo">
-				<div class="search">
-					<input class="search-box"type="text" name="" id="" placeholder="Search by books (ex.J. K. Rawling..">
-				</div>
-				<div class="search-icon">
-					<img src="/images/search.png" alt="" height="40px">
-				</div>
-				<div class="cart-icon">
-					<img src="/images/shopping-cart.png" height="40px">
-				</div>
-				<div class="loginbutton">
-					<h2>log in</h2>
-				</div>
+			
+			<form action="/html/index.html" method="post" class="search">
+				<input type="text" placeholder="Search By Authors(ex. চমক হাসান, J.K. Rowling)" class="search-box">
+
+				<button type="submit" class="click_search">
+					<img src="/images/search-svgrepo-com.svg" alt="search">
+				</button>
+			</form>
+
+			<div class="user-area">
+				<a href="/images/shopping-cart.png" class="cart"></a>
+				<a href="sign-up.html" class="sign-in-button">Sign In</a>
 			</div>
 		</div>
-
-		<div class="navigation-bar">
-			<ul>
-				<li><a class="active" href="default.asp">বই</a></li>
-				<li><a href="news.asp">ইলেক্ট্রনিক্স</a></li>
-				<li><a href="contact.asp">স্টেশনারী ও অন্যান্য</a></li>
-				<li><a href="about.asp">গিফট ফাইন্ডার</a></li>
-				<li><a href="about.asp">প্রাতিষ্ঠানিক অর্ডার</a></li>
-				<li><a href="about.asp">অফার সমূহ</a></li>
-				<li><a href="about.asp">ব্লগ</a></li>
-			</ul>
+	<!-- Navigation Area - Main Navigation Area-->
+		<div class="first-navbar">
+				<ul>
+					<li><a class="active" href="#">বই</a></li>
+					<li><a href="#">ইলেক্ট্রনিক্স</a></li>
+					<li><a href="#">স্টেশনারী ও অন্যান্য</a></li>
+					<li><a href="#">গিফট ফাইন্ডার</a></li>
+					<li><a href="#">প্রাতিষ্ঠানিক অর্ডার</a></li>
+					<li><a href="#">অফার সমূহ</a></li>
+					<li><a href="#">ব্লগ</a></li>
+				</ul>
 		</div>
-	</header>
 
+		<div class="2nd-navbar">
+			
+		</div>
 
+			
 </body>
 </html>
