@@ -270,19 +270,67 @@ top:0;
 
 /* ---------------Recently sold Products Area -------------------------- */
 
+.recently-sold-products-total-area {
+    background: #fff;
+    padding: 16px;
+    position: relative;
+}
+
+.category-title {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.all-products-container {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+
+.product {
+    width: 16.66%;
+    padding: 15px;
+    padding-top: 0;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.product-image {
+    text-align: center;
+    position: relative;
+    width: 130px;
+    margin: 0 auto;
+    transform: scale(0.84);
+}
+.product-image img {
+    width: 100%;
+}
+
+.read-some-pages-icon {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    height: 68px;
+    width: 85px;
+    background: url("https://www.rokomari.com/static/200/dist/desktop/images/look-inside.png") no-repeat;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+.discount {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    height: 42px;
+    width: 46px;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: left;
+    font-weight: 600;
+  }
+.discount-image-one {
+    background: url(https://www.rokomari.com/static/200/dist/desktop/images/discount-badge-one.png)  no-repeat;
+}
 
 
 
