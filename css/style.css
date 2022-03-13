@@ -1,32 +1,42 @@
 /*Google Fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Noto+Serif+Bengali:wght@300;400;500;700;900&display=swap');
 
 /*Global Selector*/
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-family: 'Noto Serif Bengali', serif;
 }
-body{
+
+body {
     font-size: 14px;
     background-color: #f1f2f4;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
+
 /*Top Navbar - Banner*/
-.top-nav-banner{
-display: block;
-position: fixed;
-top:0;
+
+.top-nav-banner {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
+
 /*Search Area*/
-.search-area{
-    width:100%;
-    padding:20px 91px;
+
+.search-area {
+    width: 100%;
+    padding: 20px 91px;
     display: flex;
     background: white;
     position: fixed;
@@ -34,17 +44,18 @@ top:0;
     top: 73px;
     z-index: 1000;
 }
-.logo img{
+
+.logo img {
     width: 110px;
 }
 
-.search{
+.search {
     padding: 0 75px;
     display: flex;
 }
 
-.search-box{
-    padding:12px;
+.search-box {
+    padding: 12px;
     height: 46px;
     font-size: 14px;
     width: 604px;
@@ -57,13 +68,13 @@ top:0;
 .search-box:focus {
     border: 1px solid #80bdff;
     padding-bottom: 13px;
-  }
-  
+}
+
 ::placeholder {
     color: #aaa;
-  }
+}
 
-.click_search{
+.click_search {
     height: 46px;
     width: 50px;
     background-color: #0397d3;
@@ -71,13 +82,13 @@ top:0;
     border-radius: 0 3px 3px 0;
 }
 
-.click_search img{
+.click_search img {
     margin-top: 1px;
     height: 20px;
 }
 
 .user-area {
-    float:right;
+    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,15 +108,14 @@ top:0;
     border-radius: 5px;
 }
 
-
-.first-navbar{
+.first-navbar {
     margin-top: 180px;
     text-align: center;
     margin-left: -80px;
     background: #fff;
 }
 
-.first-navbar li{
+.first-navbar li {
     display: inline;
     padding: 5px 16px;
 }
@@ -117,7 +127,7 @@ top:0;
     transition: all 0.4s linear;
 }
 
-.first-navbar a:hover{
+.first-navbar a:hover {
     color: #0397d3;
 }
 
@@ -134,8 +144,8 @@ top:0;
     margin-right: 5px 15px 5px 15px;
 }
 
-.active::after{
-    content:"";
+.active::after {
+    content: "";
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -144,13 +154,14 @@ top:0;
     height: 1px;
 }
 
-#active-link{
-    color:#0397d3
+#active-link {
+    color: #0397d3
 }
 
 
-         /*Second Navbar Design*/
-.second-navbar{
+/*Second Navbar Design*/
+
+.second-navbar {
     background: #fff;
     border-bottom: 1px solid #cecfd1;
     font-size: 15px;
@@ -158,13 +169,13 @@ top:0;
     position: relative;
 }
 
-.second-navbar > ul {
+.second-navbar>ul {
     list-style-type: none;
     max-width: 1150px;
     margin: 0 auto;
 }
 
-.second-navbar > ul > li {
+.second-navbar>ul>li {
     display: inline-block;
     margin-right: 15px;
     padding: 12px 15px;
@@ -176,7 +187,7 @@ top:0;
 }
 
 .second-navbar ul li a:hover {
-    color:#0397d3;
+    color: #0397d3;
 }
 
 .author-link::after {
@@ -212,7 +223,7 @@ top:0;
     z-index: 999;
 }
 
-.author:hover .dropdown-area, 
+.author:hover .dropdown-area,
 .dropdown-area:hover,
 .subjects:hover .dropdown-area,
 .publishers:hover .dropdown-area {
@@ -231,14 +242,15 @@ top:0;
 }
 
 .dropdown-subjects-area div,
-  .dropdown-publishers-area div {
+.dropdown-publishers-area div {
     width: 20%;
-  }
+}
 
-.dropdown-items{
+.dropdown-items {
     text-align: left;
 }
-.dropdown-items > a {
+
+.dropdown-items>a {
     display: inline-block;
     padding-bottom: 20px;
     color: #0397d3 !important;
@@ -249,12 +261,11 @@ top:0;
 }
 
 
-
 /*================ Banner Area CSS ========================*/
+
 .banner-area {
     overflow: hidden;
 }
-
 
 .banner {
     width: 100%;
@@ -267,6 +278,7 @@ top:0;
 .banner-image-container {
     width: 100%;
 }
+
 
 /* ---------------Recently sold Products Area -------------------------- */
 
@@ -296,6 +308,7 @@ top:0;
     left: 0;
     top: 0;
 }
+
 .product-image {
     text-align: center;
     position: relative;
@@ -303,6 +316,7 @@ top:0;
     margin: 0 auto;
     transform: scale(0.84);
 }
+
 .product-image img {
     width: 100%;
 }
@@ -316,7 +330,6 @@ top:0;
     background: url("https://www.rokomari.com/static/200/dist/desktop/images/look-inside.png") no-repeat;
 }
 
-
 .discount {
     position: absolute;
     top: 14px;
@@ -327,26 +340,80 @@ top:0;
     padding-left: 10px;
     text-align: left;
     font-weight: 600;
-  }
+}
+
 .discount-image-one {
-    background: url(https://www.rokomari.com/static/200/dist/desktop/images/discount-badge-one.png)  no-repeat;
+    background: url(https://www.rokomari.com/static/200/dist/desktop/images/discount-badge-one.png) no-repeat;
+}
+
+.book-title {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.price-container {
+    text-align: center;
+    font-size: 14px;
+}
+
+.original-price {
+    font-size: 16px;
+    color: #666;
+    margin-right: 5px;
+}
+
+.product-hover {
+    background: #ffffff80;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0px 0px 10px 0px #cdcdcd;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.add-to-cart-button {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 3px 6px -4px #a2a2a2;
+    border-radius: 3px;
+    font-size: 12px;
+    font-size: 600;
+    color: #fff;
+    background-color: #ff9900;
+    padding: 10px;
+    width: 106px;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.view-details-button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #0397d3;
+    width: 100%;
+    color: #fff;
+    padding: 6px 12px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.product-hover:hover,
+.add-to-cart-button:hover,
+.view-details-button:hover {
+    opacity: 1;
 }
 
 
-
-
-
 /* ------------Recently sold Products Area---------------------------------- */
-
-
-
-
-
-
-
-
-
-
 
 
 
